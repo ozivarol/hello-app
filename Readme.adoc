@@ -4,7 +4,7 @@ This repo consists of a Spring Boot Hello World application. It shows:
 
 . Run & test the application from CLI
 . Create a Docker image, run the container and test it
-. Create Kubernetes deployment and test it
+. Create Kubernetes deployment and ingress
 
 Let's get started!
 
