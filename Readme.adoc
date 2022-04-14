@@ -59,7 +59,17 @@ curl http://localhost:8080
 ```
 docker container rm -f hello-world
 ```
-
+=== Instal Kubernetes
+```
+Install choco for windows with powershell = Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco install kubernetes-cli
+=== Install Minikube
+```
+Install choco for windows with powershell = Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco install minikube
+minikube start
+minikube dashboard 
+```
 == Kubernetes
 
 === Create Deployment
