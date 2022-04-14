@@ -63,6 +63,7 @@ docker container rm -f hello-world
 ```
 Install choco for windows with powershell = Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 choco install kubernetes-cli
+```
 === Install Minikube
 ```
 Install choco for windows with powershell = Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
