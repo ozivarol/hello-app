@@ -85,4 +85,7 @@ use kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/
 ```
 kubectl delete -f deployment.yaml
 ```
-
+=== Deploy Heroku
+```
+https://hello-app-430.herokuapp.com/
+```
